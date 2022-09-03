@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react"
 import Tmdb from "./Tmdb"
 import './App.css'
-import MovieRow from "./components/MovieRow/MovieRow.js"
-import FeaturedMovie from "./components/FeaturedMovie/FeaturedMovie"
+import MovieRow from "./components/MovieRow/index"
+import FeaturedMovie from "./components/FeaturedMovie/index"
 import Header from "./components/Header"
 
 export default () => {
